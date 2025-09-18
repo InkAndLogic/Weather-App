@@ -1,35 +1,117 @@
-# Frontend Mentor - Weather app
+# 🌤️ Weather App
 
-![Design preview for the Weather app coding challenge](./preview.jpg)
+A beautiful, responsive weather application built with vanilla JavaScript and the OpenWeatherMap API. This project is a solution to the [Frontend Mentor Weather App Challenge](https://www.frontendmentor.io/challenges/weather-app-K1FhddVm49).
 
-## Welcome! 👋
+![Weather App Preview](./preview.jpg)
 
-Thanks for checking out this front-end coding challenge.
+## ✨ Features
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+- **🌍 Live Weather Data** - Real-time weather information from OpenWeatherMap API
+- **🔍 City Search** - Search for weather in any city worldwide
+- **📱 Responsive Design** - Optimized for mobile, tablet, and desktop
+- **🌡️ Unit Conversion** - Toggle between Celsius/Fahrenheit and km/h/mph
+- **📊 Detailed Forecasts** - 5-day daily forecast and 8-hour hourly forecast
+- **🎨 Beautiful UI** - Modern design with gradients and smooth animations
+- **🌈 Weather Icons** - Dynamic icons that match current weather conditions
+- **⚡ Fast Loading** - Optimized performance with loading states
+- **🛡️ Error Handling** - Graceful error handling for invalid cities
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+## 🚀 Live Demo
 
-## The challenge
+Visit the live application: [Weather App Demo](https://inkandlogic.github.io/Weather-App/)
 
-Your challenge is to build out this weather app using the [Open-Meteo API](https://open-meteo.com/) and get it looking as close to the design as possible.
+## 🛠️ Technologies Used
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript (ES6+)
+- **API**: OpenWeatherMap API
+- **Design**: CSS Grid, Flexbox, Custom Properties
+- **Icons**: Custom weather icon set
+- **Fonts**: DM Sans, Bricolage Grotesque
 
-Your users should be able to:
+## 📱 Responsive Design
 
-- Search for weather information by entering a location in the search bar
-- View current weather conditions including temperature, weather icon, and location details
-- See additional weather metrics like "feels like" temperature, humidity percentage, wind speed, and precipitation amounts
-- Browse a 7-day weather forecast with daily high/low temperatures and weather icons
-- View an hourly forecast showing temperature changes throughout the day
-- Switch between different days of the week using the day selector in the hourly forecast section
-- Toggle between Imperial and Metric measurement units via the units dropdown 
-- Switch between specific temperature units (Celsius and Fahrenheit) and measurement units for wind speed (km/h and mph) and precipitation (millimeters) via the units dropdown
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+The app works seamlessly across all devices:
+- **Mobile**: 375px and up
+- **Tablet**: 768px and up  
+- **Desktop**: 1440px and up
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+## 🔧 Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/InkAndLogic/Weather-App.git
+   cd Weather-App
+   ```
+
+2. **Get your OpenWeatherMap API key**
+   - Sign up for free at [OpenWeatherMap](https://openweathermap.org/api)
+   - Get your API key from the dashboard
+
+3. **Configure the API key**
+   - Open `script.js`
+   - Replace `"YOUR_API_KEY_HERE"` with your actual API key:
+   ```javascript
+   const apiKey = "your_actual_api_key_here";
+   ```
+
+4. **Run the application**
+   - Open `index.html` in your browser, or
+   - Use a local server (recommended):
+   ```bash
+   python3 -m http.server 8000
+   # Then visit http://localhost:8000
+   ```
+
+## 🎨 Design Features
+
+- **Color Palette**: Deep blues and purples with orange accents
+- **Typography**: Modern font stack with proper hierarchy
+- **Weather Cards**: Gradient backgrounds with glass-morphism effects
+- **Interactive Elements**: Smooth hover and focus states
+- **Loading States**: Visual feedback during API calls
+
+## 📋 API Usage
+
+The app uses two main OpenWeatherMap API endpoints:
+
+- **Current Weather**: `api.openweathermap.org/data/2.5/weather`
+- **5-Day Forecast**: `api.openweathermap.org/data/2.5/forecast`
+
+Free tier includes:
+- 1,000 API calls per day
+- Current weather data
+- 5-day/3-hour forecast
+- Perfect for development and personal use
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- [Frontend Mentor](https://www.frontendmentor.io) for the design challenge
+- [OpenWeatherMap](https://openweathermap.org) for the weather API
+- Weather icons and design assets from the challenge package
+
+## 📞 Contact
+
+**InkAndLogic**
+- GitHub: [@InkAndLogic](https://github.com/InkAndLogic)
+- Frontend Mentor: [@InkAndLogic](https://www.frontendmentor.io/profile/InkAndLogic)
+
+---
+
+⭐ If you found this project helpful, please give it a star!
 
 ## Where to find everything
 
